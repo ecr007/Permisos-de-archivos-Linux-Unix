@@ -1,4 +1,4 @@
-# Permisos de archivos Linux Unix
+# Permisos de archivos Linux / Unix
 
 ## Existen tres tipos de permisos basicos
 
@@ -69,4 +69,32 @@ Esto quiere decir que al propietario del archivo se le da permisos de Lectura, E
 
 ## Uso de "chmod" con codigos numericos en octal
 
-Tambien podemos asignar permisos 
+Esta manera consiste en una manera rapida de asignar los permisos a los usuarios.
+
+Tenemos la siguiente tabla donde se distribuyen los permisos asignando a un numero.
+
+<img src="tabla-octal.png" alt="Imagen tabla octal" />
+
+Como se utiliza:
+
+```shell
+chmod {numero asignado a u} {No. asignado a g} {No. asignado a o} fichero
+```
+
+Ejemplo de uso
+
+```shell
+// Este le quita todos los permisos a los usuarios
+chmod 000 fichero  
+
+// Este le da permiso de escritura y ejecución al usuario pero no lectura.
+// Este le da permiso de lectura y ejecución pero no escritura al grupo.
+// Este le da permiso de lectura, escritura, pero no de ejecución a los demas usuarios.
+// ** Esto solo es un ejemplo ya que no tiene mucha logica.
+chmod 356 fichero  
+
+// Permiso de lectura y escritura al usuario no de ejecución
+// Permiso de lectura al grupo
+// Permiso de lectura a los otros
+chmod 644 fichero
+```
