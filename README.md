@@ -8,8 +8,14 @@ w: (write) Con este permiso el usuario puede escribir o modificar el fichero y p
 
 x: (execute) Los usuarios con este permiso pueden ejecutar los ficheros si son programas ejecutables y en caso de directorios dichos usuarios pueden cambiar al directorio por otra cosa.
 
-## Doferetes tipos de roles
+## Doferetes tipos de roles (3 niveles)
 
 - Propietario: El creado del archivo o directorio en cuestion
 - Grupo: Es el grupo al cual pertenece el propietario
 - Otros: Son los otros usuarios del sistema
+
+## Aplicacion
+
+Los sistemas aplican los permisos distribuidos en una cadena de 10 caracteres de las siguiente manera:
+
+
