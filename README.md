@@ -18,4 +18,4 @@ x: (execute) Los usuarios con este permiso pueden ejecutar los ficheros si son p
 
 Los sistemas aplican los permisos distribuidos en una cadena de 10 caracteres de las siguiente manera:
 
-
+<img src="distribucion-permisos.png" alt="img distribución permisos" />
