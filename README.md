@@ -105,7 +105,7 @@ chmod 644 fichero
 chown nombrepropietario fichero
 ```
 
-## Cambiar el propietario de un directorio
+## Cambiar el grupo de un directorio o fichero, "chgrp"
 
 ```
 chgrp nombreDelGrupo fichero
