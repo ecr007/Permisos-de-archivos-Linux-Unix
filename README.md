@@ -98,3 +98,15 @@ chmod 356 fichero
 // Permiso de lectura a los otros
 chmod 644 fichero
 ```
+
+## Cambiar el propietario de un archivo, se utiliza el comando "chown"
+
+```
+chown nombrepropietario fichero
+```
+
+## Cambiar el propietario de un directorio
+
+```
+chgrp nombreDelGrupo fichero
+```
