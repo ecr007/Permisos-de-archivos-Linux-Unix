@@ -19,3 +19,7 @@ x: (execute) Los usuarios con este permiso pueden ejecutar los ficheros si son p
 Los sistemas aplican los permisos distribuidos en una cadena de 10 caracteres de las siguiente manera:
 
 <img src="distribucion-permisos.png" alt="img distribución permisos" />
+
+Ej: si un directorio tiene solo acceso su credor su distribución de permisos se veria de la siguiente manere:
+
+d r w x _ _ _ _ _ _
