@@ -50,3 +50,23 @@ El tercer bloque son los permisos que se asignaran.
 - w: Write.
 - x: Execute.
 
+## Ejemplos de uso
+
+```shell
+chmod a+r fichero
+```
+Esto quiere decir que a todos los usuarios del sistema se le aplicaran los pemisos de lectura con relación al archivo que se pasa por parametro.
+
+```shell
+chmod og-x fichero
+```
+Esto quiere decir que al a los otros y al grupo se le quita el permiso de ejecución con relación al fichero.
+
+```shell
+chmod u+rwx fichero
+```
+Esto quiere decir que al propietario del archivo se le da permisos de Lectura, Escritura y ejecución.
+
+## Uso de "chmod" con codigos numericos en octal
+
+Tambien podemos asignar permisos 
